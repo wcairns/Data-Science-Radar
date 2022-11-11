@@ -1,6 +1,10 @@
 # Data-Science-Radar - November 11 2022
 # **Features**
 
+# * All,
+# As I talked about recently, I read a lot! Mostly various shortform articles, blogs, research papers in the Data Science/ML/AI space and some adjacent topics. I have studied the Data Science Field and watched it mature throughout my professional life and I have friends who are some of the brightest writers, researchers, thinkers and practitioners in this space. This is not just a collection of random links, I have read these articles and papers in their entirety and I want to share what I think is some very intrguing content. I hope you find some of these interesting and I always appreciate feedback. I want this to be just 1 more way in which we expand the knowledge base at West Monroe for Data Science.
+
+
 - Python dev [Sebastian Witowski talks finding balance in ML integration tasks](https://sourcery.ai/blog/sebastian-witowski-interview-part-1/)
 
 - In their 5th edition Report, [Deloitte identifies 27% of Artificial Intelligence survey respondents as High Deployed/High Achieving](https://www2.deloitte.com/us/en/pages/consulting/articles/state-of-ai-2022.html)
