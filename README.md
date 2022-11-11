@@ -12,22 +12,4 @@
 
 
 ## About
-
-Content here.
-```
-
-## Homepage
-
-The homepage needs be available as `/` i.e. `/index.html` when the site is rendered.
-
-Therefore your homepage should be named `index.md`.
-
-Or, name it `README.md` and use the following Jekyll frontmatter:
-
-```liquid
----
-permalink: /
----
-
-
-## Navigation
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
