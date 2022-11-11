@@ -5,7 +5,7 @@ As I talked about recently, I read a lot! Mostly various shortform articles, blo
 -Will Cairns</p>
 
 <p> Topics in this edition <br>
-#Python / #AI / #HLS / #MLOps /#ML / #BI&Analytics / #E&U<br></p>
+#Python / #AI / #HLS / #MLOps /#ML / #BI&Analytics / #E&U / #VentureCap<br></p>
 
 - Python dev [Sebastian Witowski talks finding balance in ML integration tasks](https://sourcery.ai/blog/sebastian-witowski-interview-part-1/)
 
