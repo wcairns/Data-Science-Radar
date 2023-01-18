@@ -47,7 +47,7 @@
         <img src="https://raw.githubusercontent.com/wcairns/wcairns.github.io/main/_images/WestMonroe.blueyellow.png" alt="West Monroe Logo">
 
             <blockquote><p>Hi all, <br><br>
-            I suppose 2023 is shaping up as the year that AI becomes mainstream. Looking at the common thread among the "Big Five" (see article 3 below) the thing that most stands out to me is that every one of them has vast amounts of DATA! Which leads me to answer a question that has lived rent-free in my head for some time; what are the distinctions between advanced ML and AI. This question originated internally by someone who curiously asked, what is West Monroe doing in the AI space? First, I'll give my perspective on the AI versus ML question. Machine Learning is largely model-centric. Yes, we utilize data, but ultimately there is the goal of reducing the generalization error leading to our best approximation of ground truth within the data we've allocated to the task. AI is data-centric; no one can claim that they can go "fix the model" when we have 100B+ parameters; editing the data is the only viable interface. I am thoroughly intrigued by the emerging uses of reinforcement learning, something I have used hands-on for some time now. These AI "models" with human in-the-loop or RLHF (Reinforcement Learning with Human Feedback) systems still have significant room to develop, especially towards task specific applications of Foundational Models. I believe the most interesting commercial products will find ways to incorporate the two. More to come on that topic another time!
+            I suppose 2023 is shaping up as the year that AI becomes mainstream. Looking at the common thread among the "Big Five" (see article 3 below) the thing that most stands out to me is that every one of them has vast amounts of DATA! Which leads me to answer a question that has lived rent-free in my head for some time; what are the distinctions between advanced ML and AI. This question circulated internally by someone who curiously asked, "What is West Monroe doing in the AI space?" First, I'll give my perspective on the AI versus ML question. Machine Learning is largely model-centric. Yes, we utilize data, but ultimately there is the goal of reducing the generalization error leading to our best approximation of ground truth within the data we've allocated to the task. AI is data-centric; no one can claim that they can go "fix the model" when we have 100B+ parameters; editing the data becomes the only viable interface. I am thoroughly intrigued by the emerging uses of reinforcement learning, something I have used hands-on for some time now. These AI "models" with human in-the-loop or RLHF (Reinforcement Learning with Human Feedback) systems still have significant room to develop, especially towards task specific applications of Foundational Models. I believe the most interesting commercial products will find ways to incorporate the two. More to come on that topic another time!
             <br><br>
             -Will Cairns</p></blockquote>
 
@@ -55,6 +55,43 @@
             #Python / #AI / #ML </h6></p>
 
             <ul>
+            <li>Large Deep Generative models invariably face the challenge of latency during inference. Google researchers <a href="https://arxiv.org/pdf/2211.05102.pdf">compare their proposed partitioning scheme</a> on TPU's versus NVIDIA A100s and find that FLOP count and communication volume can fundamentally limit inference performance of dense Transformer models.</li>
+
+
+            <li>Want a hands-on lesson in semantic search using BERT and 30 lines of Python. Txtai demonstrates a micromodel in <a href="https://colab.research.google.com/github/neuml/txtai/blob/master/examples/41_Train_a_language_model_from_scratch.ipynb">this colab notebook</a> with additional tutorials in the master repo.</li>
+
+
+            <li>Will AI be sustaining or disruptive? <a href="https://stratechery.com/2023/ai-and-the-big-five/">A look into the current state and impact of AI</a> at Facebook (Meta), Apple, Amazon, Microsoft and Google.</li>
+
+
+            <li>Google introduced the first text-to-image model using Transformer architecture as opposed to latent diffusion. <a href="https://metaphysic.ai/muse-googles-super-fast-text-to-image-model-abandons-latent-diffusion-for-transformers/">"Muse" uses Masked Generative Transformers</a> and directly enables a number of image editing applications without the need to fine-tune or invert the model</li>
+
+
+            <li>As early as 1960 Automated Reasoning was already being discussed. The <a href="https://arxiv.org/abs/2212.13894">LAMBADA Algorithm (Language Model Augmented Backward Chaining) shows impressive gains for LM reasoning tasks</a> on examples requiring proof chains of up to 5 hops in length.</li>
+
+
+            <li>The superiority of tree based models versus deep learning for tabular data has been discussed in a number of places. <a href="https://openreview.net/forum?id=Fp7__phQszn">This paper</a> submitted for NeurIPS 2022 looks into the differing biases of tree-based models and neural networks. Accompanying repository provided.</li>
+
+
+            <li>In <a href="https://arxiv.org/pdf/2301.05062.pdf">this paper, the Team at DeepMind discusses interpretability research for Transformers</a>. They also provide an open-source implementation of Tracr; a “compiler” for translating human-readable programs into weights of a transformer model at https://github.com/deepmind/tracr.</li>
+
+
+            <li>A free course (ad free) provided by <a href="https://huggingface.co/course/chapter1/1">HuggingFace</a> provides 9 chapters of extensive learning materials covering Tokenizers and Transformers.</li>
+
+
+            <li>8 somewhat provocative <a href="https://venturebeat.com/ai/8-mlops-predictions-for-enterprise-machine-learning-in-2023/">ML Ops predictions for 2023</a> and every one worth reading. Very applicable to how Companies may seek strategic guidance in the near future.</li>
+
+
+            <li>A good discussion on <a href="https://arxiv.org/abs/2301.04819">Data Centric AI</a>. A framework for systematically engineering the data needed to successfully build an AI system and consistent with the opinions previously expressed by Andrew Ng here https://spectrum.ieee.org/andrew-ng-data-centric-ai</li>
+
+
+            <li>Looking to learn more about Causal Inference? Chapter 2 of <a href="https://alejandroschuler.github.io/mci/">this book</a> is worth reading by itself. </li>
+
+
+            <li>A surprise to no one but <a href="https://cdn.openai.com/papers/forecasting-misuse.pdf">Generative Models can be used with malicious intent</a>. Open AI brought together 30 experts across AI, influence operations, and policy analysis to discuss the potential impact of language models.</li>
+
+
+            <li>Used internally by Meta, "balance" introduces a simple easy-to-use framework for <a href="https://import-balance.org/blog/2023/01/09/bringing-balance-to-your-data/">weighting data and evaluating its biases with and without adjustments</a>. The package is designed to provide best practices for weights fitting and offers several modeling approaches.</li>
 
             </ul>
     </body>
