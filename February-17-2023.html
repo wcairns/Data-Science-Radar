@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Data Science Radar February 17 2023</title>
+            <style>
+            	blockquote {
+            	max-width: 1200px;
+            	margin: 20px;
+            	padding: 20px;
+            	text-align: left;
+            	font-family: serif;
+            	font-size: 18px;
+            	color: #63666a;
+            	background-color: #fcf5e5;
+            	}
+            	ul,li {
+                font-family: serif;
+            	font-size: 18px;
+                line-height: 1.5;
+                padding: 8px;
+                margin-left: 20px;
+                }
+                h1 {
+                display: block;
+                font-weight: bold;
+                background: #132A47;
+                font-family: Copperplate;
+                font-size: 55px;
+                color: #FFFFFF;
+                padding: 18px;
+                margin-left: 20px;   
+                }
+                h6 {
+                display: block;
+                font-family: serif;
+                font-size: 16px;
+                margin-left: 20px;
+                font-style: italic;   
+                }
+                img {
+                margin-left: 20px;   
+                }
+            </style>
+    </head>
+    <body>
+        <h1>Data Science Radar - February 17 2023</h1>
+        <img src="https://raw.githubusercontent.com/wcairns/wcairns.github.io/main/_images/WestMonroe.blueyellow.png" alt="West Monroe Logo">
+
+            <blockquote><p>Hi all, <br><br>
+            “The population of Mars is 2.5 billion people” (according to Bing). Are Large Language agents working as expected? With all that Google has invested could anyone have known that Bard/LaMDA would incorrectly state that the NASA James Webb Telescope took the first ever picture outside of our Solar System? The problem is - there are many problems. Specifically two problems that deserve more attention center on the trustworthiness and truthfulness being demonstrated by Language Models. In both cases they are performing as expected by making up linguistically plausible responses to dialogue with no guarantee on accuracy. On the topic of trustworthiness we’ve seen Meta’s Galactica chatbot get sidelined for writing racist and dangerous responses (something a defensive Dr. Yann LeCun was quick to comment on). Microsoft’s Bing chatbot has been observed giving provocative responses driven by nefarious users who have found exploits overflowing the size of the context window to elicit a change in the tone. All of this has made me think more critically about LLM Model calibration and evaluation and the current work in this field by applying conformal prediction, perplexity and general uncertainty prediction. There’s a good paper in the below (Uncertainty Quantification with Pre-trained Language Models) that tests various hypotheses such as; Which fine tuning loss metric?, Can evaluation be task agnostic?, etc.. As with most emerging Technology, the situation will improve and in some ways already has. There are competitive moats at stake and enormous investment looking to demolish them.
+            <br><br>
+            -Will Cairns</p></blockquote>
+
+            <p><h6> Topics in this edition <br>
+            #Python / #AI / #ML / #MLOps</h6></p>
+
+            <ul>
+            <li>In <a href="https://arxiv.org/pdf/2210.04714.pdf">Uncertainty Quantification with Pre-Trained Language Models</a> the researchers analyze models on Sentiment Analysis, Natural Language Inference and Commonsense Reasoning.</li>
+
+
+            <li>An ICLR pre-release paper discusses <a href="https://openreview.net/forum?id=uqLDy0HGPR7">Risk Control for Online Learning Models</a> </li>
+
+
+            <li>Irene Solaiman is currently Policy Director at Hugging Face and the #1 worldwide expert on safe release of ML models. In her single author paper "The Gradient of Generative AI Release: Methods and Considerations" she discusses <a href="https://arxiv.org/abs/2302.04844">robustly safe and responsible release of new AI systems</a></li>
+
+
+            <li>A widely discussed paper from Meta introduces <a href="https://arxiv.org/abs/2302.04761">Toolformer</a>, a self-supervised few-shot model trained to decide which APIs to call, when to call them, what arguments to pass, and how to best incorporate the results into future token prediction. </li>
+
+
+            <li>Microsoft introduced <a href="https://paperswithcode.com/paper/deep-end-to-end-causal-inference">Causica, a deep learning library for end-to-end causal inference</a>. Deep End-to-end Causal Inference or DECI "allows the end user to perform causal inference without having complete knowledge of the causal graph."</li>
+
+
+            <li>The Team at Zama.ai recently presented "Concrete ML" at Google Tech Talks. An open-source library that allows for the the conversion of <a href="https://www.zama.ai/post/zama-concrete-ml-at-google-tech-talks">ML models into their Fully Homomorphic Encrypted counterparts</a> enabling the deployment of ML models on untrusted servers without compromising the privacy of user data.</li>
+
+
+            <li>The <a href="https://mapie.readthedocs.io/en/latest/index.html#">MAPIE</a> (Model Agnostic Prediction Interval Estimator) library is fully compatible with any scikit-learn model and allows you to easily estimate prediction interval</li>
+
+
+            <li>Large Language Models are less truthful than smaller counterparts. The authors designed a test of 817 questions and found the <a href="https://arxiv.org/abs/2109.07958">best model was truthful on 58% of questions</a>, while human performance was 94%.</li>
+
+
+            <li>A paper that discusses <a href="https://arxiv.org/abs/2210.15709">Causal Recourse</a> with an accompanying Github repo. "Causal explanations are more complete and true to the model while while recourse recommendations are more true to the underlying process"</li>
+
+
+            <li>A blog explores the <a href="https://www.unusual.vc/post/devtools-for-language-models">ecosystem of tools cropping up around large language models</a> (LLMs), and dive into what tools exist and why those tools are important.</li>
+
+
+            <li>A discussion on <a href="https://medium.com/memory-leak/foundational-model-orchestration-fomo-a-primer-ba6c1464a82a">Foundational Models and Orchestration</a> talks about how foundational model pipelines are different than data or ML orchestration solutions</li>
+
+
+            <li>A model within a model. Top researchers test the theory that <a href="https://news.mit.edu/2023/large-language-models-in-context-learning-0207">LLM's contain the ability to learn in-context from data given in their inputs, without explicit retraining</a>. </li>
+
+
+            <li>A tutorial demonstrates deploying the <a href="https://www.philschmid.de/deploy-flan-t5-sagemaker">FLAN-T5 XXL on Amazon SageMaker</a></li>
+
+            </ul>
+    </body>
+</html>
