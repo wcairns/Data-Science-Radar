@@ -1,0 +1,4 @@
+NYC-WCAIRNS-MBP:Data-Science-Radar wcairns$ git add -A
+NYC-WCAIRNS-MBP:Data-Science-Radar wcairns$ git commit -m 'Commit message'
+NYC-WCAIRNS-MBP:Data-Science-Radar wcairns$ git push -u origin main
+

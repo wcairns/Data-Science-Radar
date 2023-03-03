@@ -47,7 +47,7 @@
         <img src="https://raw.githubusercontent.com/wcairns/wcairns.github.io/main/_images/WestMonroe.blueyellow.png" alt="West Monroe Logo">
 
             <blockquote><p>Hi all, <br><br>
-
+            For this issue, I have spent a lot of time reading materials related to the topic of ML and AI Bias. This is true for two reasons: first, I think it's a very difficult problem to solve, and second, it's exactly the problem my current client engagement has to deal with (which seems biased?). In the recently released paper from researchers at Apple titled "Designing Data: Proactive Data Collection and Iteration for Machine Learning," the conclusion that is espoused is really quite novel. "Through an interdisciplinary meeting of human-centered interventions and algorithmic evaluation, designing data emphasizes planning over rapid implementation to ensure prototype datasets are conscientiously designed before deployment." So, in effect, better planning yields better models. Not necessarily models with higher evaluation scores, but models that better reflect the ground truth, even when the training data is discordant with the real world. The problems related to Bias, both algorithmic and societal, are not solvable by adding a few lines of code to a training pipeline, but each incremental improvement from problem formulation through data collection and model evaluation contributes to more trustworthy outcomes.
             <br><br>
             -Will Cairns</p></blockquote>
 
@@ -55,8 +55,43 @@
             #Python / #AI / #ML / #MLOps</h6></p>
 
             <ul>
+            <li>Researchers from various Boston area Hospitals conducted a study looking into assessing <a href="https://www.medrxiv.org/content/10.1101/2023.02.21.23285886v1">ChatGPT's capacity for ongoing clinical decision support</a> towards successive, related tasks, as opposed to single-ask tasks throughout the Entire Clinical Workflow</li>
 
 
+            <li>Google Research submitted this paper for the 34th International Conference on the Web (WWW 2023). In it, they <a href="https://arxiv.org/pdf/2302.05852.pdf">introduce a framework named ExHalder</a>, standing for “Explanation-enhanced Headline Hallucination detector” for detecting news headline LLM hallucinations.</li>
+
+
+            <li>ML Researchers at Apple took the Social scientists practice of reflexivity to externalize implicit subjectivity present in data collection and applied it into the task of bias mitigation. In it they argue that <a href="https://arxiv.org/pdf/2301.10319.pdf">data cannot simply be collected but must be designed, intentionally curated for the sake of better models</a></li>
+
+
+            <li>Amazon introduced the "Comprehend flywheel for MLOps". Using this feature, you can <a href="https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-comprehend-flywheel-for-mlops/">manage training and testing of NLP models inside Amazon Comprehend</a>. This feature also allows you to automate model retraining after new datasets are ingested in the flywheel´s data lake. The flywheel provides integration with custom classification and custom entity recognition APIs, and can help different roles such as data engineers and developers automate and manage the NLP workflow with no-code services.</li>
+
+
+            <li>On the topic of broader applicability for Graph Learning, Researchers at Google applied an auxiliary neural network, which they refer to as a Knowledge Transfer Network (KTN) to map the target embeddings computed from the pre-trained Heterogeneous graph neural networks. The <a href="https://ai.googleblog.com/2023/03/teaching-old-labels-new-tricks-in.html">KTN consistently outperforms all baselines on all tasks, beating transfer learning baselines by up to 140%</a></li>
+
+
+            <li>This 2019 article from the McKinsey Global Institute spoke about <a href="https://www.mckinsey.com/featured-insights/artificial-intelligence/tackling-bias-in-artificial-intelligence-and-in-humans">Tackling bias in artificial intelligence (and in humans)</a>. In it, they thoughtfully outline six potential ways forward for AI practitioners and business and policy leaders to consider.</li>
+
+
+            <li><a href="https://arxiv.org/abs/2112.06926">Highly parameterized deep neural networks may be more susceptible to overfitting</a> in Active Learning approaches. The solution explored in this paper hypothesizes that the results (of utilizing DUN's) can be explained by gains due to bias reduction being lost due to increased variance.</li>
+
+
+            <li>In this Technical Report the topics of algorithm auditing, and <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3778998">managing the Legal, Ethical and Technological Risks of AI, ML</a> are explored. The stakeholders look to survey the key areas necessary to perform auditing and assurance, and instigate the debate in this novel area of research and practice.</li>
+
+
+            <li><a href="https://huggingface.co/spaces/society-ethics/about">This community Hugging Face page</a> is dedicated to highlighting projects – inside and outside Hugging Face – in order to encourage and support more ethical development and use of AI.</li>
+
+
+            <li>A Python example of <a href="https://www.paepper.com/blog/posts/interactive-visualization-of-stable-diffusion-image-embeddings/">visualization of stable diffusion image embeddings</a> demonstrates visualization using t-SNE and UMAP and an interactive plot using Bokeh</li>
+
+
+            <li>A conference paper from ICLR 2023 discusses "Semantic Uncertainty Estimation in Natural Language Generation". Their method called <a href="https://arxiv.org/abs/2302.09664">semantic entropy</a> analyzes the case where sequences of distinct NLG tokens can mean the same thing.</li>
+
+
+            <li>The inaugural <a href="https://lspace.swyx.io/p/chatgpt-gpt4-hype-and-building-llm#details">Latent Spaces podcast</a> episode discussed ChatGPT, GPT4 hype, and Building LLM-native products with Logan Kilpatrick of OpenAI</li>
+
+
+            <li>Also on the ICLR 2023 agenda, Google presents <a href="https://ai.googleblog.com/2023/02/pre-training-generalist-agents-using.html">Scaled Q-Learning, a pre-training method for offline Reinforcement Learning</a> that builds on the CQL algorithm.This work made progress towards enabling more practical real-world training of RL agents as an alternative to costly and complex simulation-based pipelines or large-scale experiments</li>
             </ul>
     </body>
 </html>
