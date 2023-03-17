@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Data Science Radar March 17 2023</title>
+            <style>
+            	blockquote {
+            	max-width: 1200px;
+            	margin: 20px;
+            	padding: 20px;
+            	text-align: left;
+            	font-family: serif;
+            	font-size: 18px;
+            	color: #63666a;
+            	background-color: #fcf5e5;
+            	}
+            	ul,li {
+                font-family: serif;
+            	font-size: 18px;
+                line-height: 1.5;
+                padding: 8px;
+                margin-left: 20px;
+                }
+                h1 {
+                display: block;
+                font-weight: bold;
+                background: #132A47;
+                font-family: Copperplate;
+                font-size: 55px;
+                color: #FFFFFF;
+                padding: 18px;
+                margin-left: 20px;   
+                }
+                h6 {
+                display: block;
+                font-family: serif;
+                font-size: 16px;
+                margin-left: 20px;
+                font-style: italic;   
+                }
+                img {
+                margin-left: 20px;   
+                }
+            </style>
+    </head>
+    <body>
+        <h1>Data Science Radar - March 17 2023</h1>
+        <img src="https://raw.githubusercontent.com/wcairns/wcairns.github.io/main/_images/WestMonroe.blueyellow.png" alt="West Monroe Logo">
+
+            <blockquote><p>Hi all, <br><br>
+            This issue comes at a time when I am flexing my Data Science muscles on some fun project work. Here's the thing, this project was initially not requesting nor looking for any modeling work to be performed. What I did encounter, and what has ultimately presented this opportunity, are some challenging but uncertain business objectives with a substantial amount of unstructured data to support it. Without divulging any details about the client, I can tell you that the regulatory interest in how AI and Machine Learning models are utilized is a subject that is multi-faceted and not easy for companies to demonstrate reliable and repeatable compliance with. So, where I found some untapped opportunity is to employ various NLP techniques to probabilistically match thousands of audit and compliance-related tickets to the key topics that I could tokenize from publications either produced by or submitted to those regulators as part of their rule-making processes. To achieve this task, I am writing Python code in the glorious IDE called Microsoft Notepad! The client doesn't offer much, but I'll take what I can get and make the best of it. Enjoy reading.
+            <br><br>
+            -Will Cairns</p></blockquote>
+
+            <p><h6> Topics in this edition <br>
+            #Python / #AI / #ML / #MLOps</h6></p>
+
+            <ul>
+            <li>While Principal Component Analyses (PCA) is a familiar and assumed trustworthy analysis tool for most Data Scientists, <a href="https://www.nature.com/articles/s41598-022-14395-4?ref=the-batch-deeplearning-ai">this paper</a> argues that the results can arbitrarily present a linear representation of the data and not the diversity </li>
+
+
+            <li>The expected announcement about the <a href="https://cdn.openai.com/papers/gpt-4.pdf">OpenAI release of GPT-4</a> includes a larger model size, more efficient training techniques, and the incorporation of multimodal inputs into the pre-training process. Additionally, the authors propose using a new "meta-learning" algorithm that allows the model to quickly adapt to new tasks with minimal training data</li>
+
+
+            <li>The <a href="https://thesequence.substack.com/p/edge-273-horizontal-federated-learning">Syft Framework (Google Research) on Horizontal Federated Learning</a> has the potential to improve machine learning performance by increasing the amount and diversity of data available for training, while also reducing the computational burden on individual devices. There is however some tradeoff that takes place between privacy and bias</li>
+
+
+            <li>This recent paper looks at the <a href="https://www.nature.com/articles/s42256-023-00620-w">post-hoc interpretability methods in time-series classification</a>. The authors conclude that post-hoc interpretability methods such as SHAP and Permutation Importances can provide valuable insights into the predictions but the performance varied depending on the specific ML model and the characteristics of the time-series data.</li>
+
+
+            <li>In this Microsoft Research Paper <a href="https://arxiv.org/pdf/2302.14045.pdf">Language Is Not All You Need: Aligning Perception with Language Models</a> the authors introduce KOSMOS-1 a multimodal large language model (MLLM) that is capable of perceiving multimodal input, following instructions, and performing in-context learning for not only language tasks but also multimodal tasks</li>
+
+
+            <li>This literature review on deep learning methods for privacy-preserving NLP further substantiates that <a href="https://link.springer.com/article/10.1007/s10462-022-10204-6">federated learning is a promising method for preserving privacy</a> while maintaining performance in NLP tasks. The authors provide a detailed overview of four applied methods for NLP Privacy and discuss their strengths and weaknesses</li>
+
+
+            <li>Google's announcement and introduction of introduction of <a href="https://developers.googleblog.com/2023/03/announcing-palm-api-and-makersuite.html">PALM API and MakerSuite</a> provides new tools for developers to build and deploy personalized language models and machine learning applications. The blog post highlights several potential use cases including improving customer service through chatbots, automating translation and transcription tasks, and developing new voice assistants.</li>
+
+
+            <li>First introduced at  the ACM SIGMOD 2015 conference, <a href="https://github.com/TheDatumOrg/kshape-python">k-Shape is among the fastest and most accurate time-series clustering methods</a>, ranked in the top positions of established benchmarks with 100+ datasets.</li>
+
+
+            <li>The authors of <a href="https://arxiv.org/abs/2302.14040">Permutation Equivariant Neural Functionals</a> demonstrate a math heavy review on the effectiveness of PENFs for several tasks and show that they outperform existing methods on several benchmark datasets. They also discuss the potential applications of PENFs in fields such as computer vision, natural language processing, and computational biology.</li>
+
+
+            <li>This Silicon Angle Article looks into some of the <a href="https://siliconangle.com/2023/03/11/databricks-faces-critical-strategic-decisions-heres/">critical strategic decisions Databricks faces</a>. Primary of which will be how and when the Company elects to launch an IPO, something that could be challenging given the current sentiment in capital markets.</li>
+
+
+            <li>The global biopharmaceutical company Merck announces that its <a href="https://pharmaphorum.com/news/merck-makes-its-foundry-data-tools-available-free">Palantir based Foundry data tools will be made available for free</a>. The tools are designed to help researchers manage and analyze complex biological data and can be used to analyze data from a variety of sources including clinical trials, drug discovery programs, and disease registries.</li>
+
+
+            <li>The paper "Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor" proposes a new approach to fine-tuning language models for specific tasks with minimal human supervision. The authors propose a new counter-intuitive method for fine-tuning language models called <a href="https://arxiv.org/abs/2212.09689">Unnatural Language Processing (ULP), which involves generating "unnatural" instructions</a> that are designed to be difficult for the model to understand.</li>
+
+
+            <li>This Lyft.com Labs article <a href="https://eng.lyft.com/quantifying-efficiency-in-ridesharing-marketplaces-affd53043db2">Quantifying Efficiency in Ridesharing Marketplaces</a> discusses several statistical theories, measures and approaches and their application to quantifying efficiency in ridesharing marketplaces</li>
+            </ul>
+    </body>
+</html>
